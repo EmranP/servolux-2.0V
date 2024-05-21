@@ -1,0 +1,15 @@
+.active__items {
+  @apply bg-blue-500 p-4 rounded-full;
+}
+
+.max__container {
+  @apply max-w-[1600px] mx-auto px-5;
+}
+
+.max__container-blue {
+  @apply px-0;
+}
+
+.fp-watermark {
+  display: none;
+}

@@ -1,0 +1,38 @@
+.advantage {
+	@apply py-28 px-5;
+	&__items {
+		h1 {
+			@apply pb-10;
+		}
+	}
+}
+
+.item__img {
+	@apply flex flex-col items-start justify-center max-w-[550px] min-h-[650px] md:max-w-[350px] md:min-h-[350px] sm:min-h-[200px];
+	background: url("../../../assets/03.png") 0 0 no-repeat;
+	background-position: center;
+	background-size: cover;
+	h2 {
+		@apply text-white uppercase font-bold pl-8;
+	}
+}
+
+.item__img_two {
+	@apply flex flex-col items-start justify-center max-w-[550px] min-h-[650px] md:max-w-[350px] md:min-h-[350px] sm:min-h-[200px];
+	background: url("../../../assets/04.png") 0 0 no-repeat;
+	background-position: center;
+	background-size: cover;
+	h2 {
+		@apply text-white uppercase font-bold pl-8;
+	}
+}
+
+.item__img_three {
+	@apply flex flex-col items-start justify-center max-w-[550px] min-h-[650px] md:max-w-[350px] md:min-h-[350px] sm:min-h-[200px];
+	background: url("../../../assets/05.png") 0 0 no-repeat;
+	background-position: center;
+	background-size: cover;
+	h2 {
+		@apply text-white uppercase font-bold pl-8;
+	}
+}

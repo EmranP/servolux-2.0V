@@ -1,0 +1,6 @@
+.business {
+	@apply flex flex-col justify-end h-[700px] p-5;
+	h1 {
+		@apply text-white uppercase font-bold hover:underline;
+	}
+}

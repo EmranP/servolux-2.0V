@@ -1,0 +1,9 @@
+.content {
+	@apply flex flex-col p-10 justify-center space-y-28 items-start bg-blue-500 h-[785px] text-white;
+	h1 {
+		@apply max-w-80 mb-8;
+	}
+	p {
+		@apply max-w-[560px];
+	}
+}
